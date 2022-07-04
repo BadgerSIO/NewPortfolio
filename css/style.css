@@ -82,8 +82,13 @@ transform: translateY(0px);
 .about{
     height: 100vh;
 }
+.hc1{
+    display: flex;
+    align-items: center;
+}
 .hc1 h2{
     color: #65CCEE;
+    font-size: 30px;
 }
 .hc1 p{
     font-size: 20px;
@@ -92,4 +97,7 @@ transform: translateY(0px);
 .hc1 a{
     text-decoration: none;
     
+}
+.hc2 img{
+    width: 90%;
 }
