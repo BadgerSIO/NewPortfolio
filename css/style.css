@@ -5,10 +5,32 @@
 }
 .container {
     width: 1280px;
+   margin: 0 auto;
 }
 .d-flex{
     display: flex;
 }
 .w-50{
     width: 50%;
+}
+
+body{
+    background: url("/images/bacground-\ 1.png");
+    background-size: cover;
+   
+}
+.justBt{
+    justify-content: space-between;
+}
+nav{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.navlinks{
+    justify-content: flex-end;
+}
+.navlinks ul li{
+    list-style: none;
+    margin: 0 10px;
 }
