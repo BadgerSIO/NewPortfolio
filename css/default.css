@@ -6,6 +6,7 @@
 .container {
     width: 75vw;
    margin: 0 auto;
+  
    
 }
 .d-flex{
@@ -63,4 +64,24 @@ body{
 .justBt{
     justify-content: space-between;
 }
+.btn1{
+    padding: 15px 30px;
+    background: linear-gradient(to right, #65CCEE 30%, #95DCBD);
+   color: #fff;
+   font-weight: 600;
+   text-transform: capitalize;
+   box-shadow: 0px 5px 25px rgba(0,0,0,0.15);
+   border-radius: 5px;
+   transition: 0.5s;
+   
+    
+}
+.btn1:hover{
+    background: linear-gradient(to right, #95DCBD, #65CCEE);
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.15);
+    transition: 0.5s;
+    
+   
+}
+
 
