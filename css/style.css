@@ -3,8 +3,11 @@ nav{
     height: 10vh;
     display: flex;
     align-items: center;
+    width: 100%;
     background: #ffffff6c;
     backdrop-filter: blur(20px);
+    position: fixed;
+    z-index: 99;
 }
 .navlinks{
     justify-content: flex-end;
@@ -60,3 +63,24 @@ transform: translateY(0px);
     .navlinks li:hover a{
         color: #4A7EF1;
     }
+.hero{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url("../images/bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 90;
+}
+.hc1 h1{
+    font-size: 45px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.about{
+    height: 100vh;
+}
+.hc1 h2{
+    color: #4A7EF1;
+}
