@@ -5,7 +5,7 @@
 }
 :root {
     --blue: #4A7EF1;
-    --lightblue: #65CCEE
+    --lightblue: #65CCEE;
     
   }
 
@@ -58,6 +58,12 @@
  .px-5{
      padding-left: 50px;
      padding-right: 50px;
+ }
+ .margin0auto{
+    margin: 0 auto;
+ }
+ .txt_center{
+    text-align: center;
  }
 
 body{

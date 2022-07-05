@@ -77,9 +77,6 @@ nav{
     font-weight: 800;
     text-transform: uppercase;
 }
-.about{
-    height: 100vh;
-}
 .hc1{
     display: flex;
     align-items: center;
@@ -109,4 +106,14 @@ nav{
         transform: translateX(-20px);
         transform: translateY(-20px);
     }
+}
+/* about css  */
+.about{
+    height: 60vh;
+    background: #f5f5f5;
+}
+.about i{
+   display: block;
+   font-size: 50px;
+   color: var(--blue);
 }
