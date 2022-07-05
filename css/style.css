@@ -118,7 +118,7 @@ nav {
 .about_parts {
   display: flex;
   flex-direction: column;
-  position: relative;
+  
   height: 100%;
 }
 .about i {
@@ -127,13 +127,13 @@ nav {
   color: #333;
 }
 .about h1 {
-  font-size: 55px;
+  font-size: 45px;
   color: #333;
   text-transform: uppercase;
 }
 .bar {
   display: block;
-  width: 50%;
+  width: 10%;
   height: 5px;
   background: #333;
   margin: 0 auto;
@@ -142,7 +142,7 @@ nav {
 .aboutc1 img {
   height: 100%;
   z-index: 66 !important;
-
+  
   backdrop-filter: blur(15px);
   border-top: 2px solid #fff;
   border-left: 2px solid #fff;
@@ -157,11 +157,11 @@ nav {
 }
 .sqr1 {
   position: absolute;
-  height: 300px;
-  width: 300px;
+  height: 100px;
+  width: 100px;
   background: #fff;
-  bottom: 33%;
-  left: 6%;
+  top: 0;
+  left: 26%;
   transform: rotate(45deg);
   border-radius: 15px;
   animation: sqrrotate 10s linear infinite;
@@ -173,6 +173,9 @@ nav {
   100% {
     transform: rotate(360deg);
   }
+}
+.aboutc1{
+  position: relative;
 }
 
 /* service part css  */
