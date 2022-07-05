@@ -110,7 +110,6 @@ nav{
 }
 /* about css  */
 .about{
-    height: 60vh;
     background: #1addff;
 }
 .about i{
@@ -122,4 +121,14 @@ nav{
     font-size: 55px;
     color: #333;
     text-transform: uppercase;
+}
+/* service part css  */
+#services{
+    
+    background: #151515;
+}
+/* contact part css  */
+#contacts {
+    
+    background: #1addff;
 }

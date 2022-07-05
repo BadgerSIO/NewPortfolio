@@ -39,6 +39,26 @@
     padding-top: 50px;
     padding-bottom: 50px; 
  }
+ .py-6 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+ }
+ .py-7 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+ }
+ .py-8 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+ }
+ .py-9 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+ }
+ .py-10 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+ }
  .px-1{
     padding-left: 10px;
     padding-right: 10px; 
@@ -65,10 +85,29 @@
  .txt_center{
     text-align: center;
  }
+ .hi-5{
+   height: 50vh;
+ }
+  .hi-6 {
+     height: 60vh;
+  }
+      .hi-7 {
+         height: 70vh;
+      }
+ .hi-8 {
+    height: 80vh;
+ }
+ .hi-9 {
+    height: 90vh;
+ }
+ .hi-10 {
+    height: 100vh;
+ }
 
-body{
+html, body{
     
     font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
     
 }
 .justBt{
