@@ -3,11 +3,15 @@
     padding: 0px;
     box-sizing: border-box;
 }
+:root {
+    --blue: #4A7EF1;
+    --lightblue: #65CCEE
+    
+  }
+
 .container {
     width: 75vw;
    margin: 0 auto;
-  
-   
 }
 .d-flex{
     display: flex;
