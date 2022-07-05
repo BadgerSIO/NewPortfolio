@@ -118,7 +118,7 @@ nav {
 .about_parts {
   display: flex;
   flex-direction: column;
-
+  position: relative;
   height: 100%;
 }
 .about i {
@@ -131,16 +131,50 @@ nav {
   color: #333;
   text-transform: uppercase;
 }
+.bar {
+  display: block;
+  width: 50%;
+  height: 5px;
+  background: #333;
+  margin: 0 auto;
+}
 
 .aboutc1 img {
   height: 100%;
+  z-index: 66 !important;
+
+  backdrop-filter: blur(15px);
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  border-radius: 15px 15px 0 0;
 }
 .about_titles {
-  height: 20%;
+  height: 30%;
 }
 .about_contents {
-  height: 80%;
+  height: 70%;
 }
+.sqr1 {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  background: #fff;
+  bottom: 33%;
+  left: 6%;
+  transform: rotate(45deg);
+  border-radius: 15px;
+  animation: sqrrotate 10s linear infinite;
+}
+@keyframes sqrrotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 /* service part css  */
 #services {
   background: #151515;
