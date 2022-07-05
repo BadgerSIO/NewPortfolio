@@ -3,6 +3,19 @@
     padding: 0px;
     box-sizing: border-box;
 }
+::-webkit-scrollbar {
+   width: 0.5vw;
+   background: #ccc;
+}
+
+::-webkit-scrollbar-thumb {
+   background: linear-gradient(180deg, rgb(28, 228, 255), rgb(79, 255, 117));
+   border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+   background: #ffffff;
+}
 :root {
     --blue: #4A7EF1;
     --lightblue: #65CCEE;
@@ -108,7 +121,6 @@ html, body{
     
     font-family: 'Nunito', sans-serif;
     scroll-behavior: smooth;
-    
 }
 .justBt{
     justify-content: space-between;
