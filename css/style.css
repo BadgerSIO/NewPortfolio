@@ -86,7 +86,8 @@ nav {
   font-size: 30px;
 }
 .hc1 p {
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: 600;
   margin-bottom: 30px;
 }
 .hc1 a {
@@ -113,12 +114,15 @@ nav {
 }
 
 .about {
-  background: #1addff;
+  background-image: url("../images/bg2.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .about_parts {
   display: flex;
   flex-direction: column;
-  
   height: 100%;
 }
 .about i {
@@ -138,44 +142,46 @@ nav {
   background: #333;
   margin: 0 auto;
 }
-
+.about_contents {
+  padding-top: 0px;
+}
+.aboutc1 {
+  padding: 7%;
+  margin: 0;
+}
 .aboutc1 img {
-  height: 100%;
-  z-index: 66 !important;
-  
+  width: 100%;
+  background: #8be4ff;
   backdrop-filter: blur(15px);
   border-top: 2px solid #fff;
   border-left: 2px solid #fff;
   border-right: 2px solid #fff;
-  border-radius: 15px 15px 0 0;
-}
-.about_titles {
-  height: 30%;
-}
-.about_contents {
-  height: 70%;
-}
-.sqr1 {
-  position: absolute;
-  height: 100px;
-  width: 100px;
-  background: #fff;
-  top: 0;
-  left: 26%;
-  transform: rotate(45deg);
   border-radius: 15px;
-  animation: sqrrotate 10s linear infinite;
 }
-@keyframes sqrrotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+.aboutc2 {
+  display: flex;
+  align-items: center;
 }
-.aboutc1{
-  position: relative;
+.c2c h2,
+h1,
+p {
+  padding-bottom: 20px;
+}
+.aboutc2 h2 {
+  font-weight: 600;
+}
+.aboutc2 p {
+  font-size: 18px;
+  background: #ffffff80;
+  backdrop-filter: blur(15px);
+  padding: 15px;
+  border-left: 2px solid #1addff;
+  border-radius: 0 15px 15px 0;
+}
+
+.aboutc2 button {
+  border: 0;
+  margin-top: 20px;
 }
 
 /* service part css  */
