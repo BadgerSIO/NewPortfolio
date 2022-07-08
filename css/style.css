@@ -3,9 +3,11 @@ nav {
   display: flex;
   align-items: center;
   width: 100%;
-
   position: fixed;
   z-index: 99;
+}
+.logo h2 {
+  font-family: "Lobster", cursive;
 }
 nav .container {
   background: #ffffff81;
@@ -132,12 +134,9 @@ nav .container {
 .aboutc1 img {
   width: 65%;
   background: #8be4ff;
-  backdrop-filter: blur(15px);
-  border-top: 2px solid #fff;
-  border-left: 2px solid #fff;
-  border-right: 2px solid #fff;
   border-radius: 15px;
   text-align: center;
+  box-shadow: 20px 20px 1px #1addff;
 }
 .aboutc2 {
   display: flex;
@@ -212,7 +211,7 @@ p {
   -webkit-transition: 0.5s linear;
 }
 .myworks div h2,
-p {
+.myworks div p {
   z-index: 35;
   transition: 0.5s linear;
   padding: 0 30px;
@@ -221,19 +220,15 @@ p {
   font-family: "Lobster", cursive;
   font-size: 35px;
   text-transform: capitalize;
-  color: #151515;
-}
-.myworks div .bar2 {
-  width: 200px;
-  height: 4px;
-  border-radius: 5px;
-  background: #000;
-  z-index: 99;
+  color: #1addff;
+  font-weight: 300;
 }
 .myworks div p {
   font-size: 18px;
   font-weight: 600;
-  padding-top: 30px;
+  padding-top: 20px;
+  color: rgb(119, 119, 119);
+  line-height: 1.5em;
 }
 
 .myworks .work1 {
