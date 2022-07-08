@@ -3,6 +3,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+}
 ::-webkit-scrollbar {
   width: 0.5vw;
   background: #ccc;
@@ -139,4 +142,23 @@ body {
   background: linear-gradient(to right, #95dcbd, #65ccee);
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
   transition: 0.5s;
+}
+.titles i {
+  display: block;
+  font-size: 50px;
+  color: #333;
+  text-align: center;
+}
+.titles h1 {
+  font-size: 45px;
+  color: #333;
+  text-transform: uppercase;
+}
+.bar {
+  display: block;
+  width: 10%;
+  height: 5px;
+  background: #333;
+  margin: 0 auto;
+  border-radius: 10px;
 }
