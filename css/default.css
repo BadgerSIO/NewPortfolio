@@ -129,12 +129,12 @@ body {
   justify-content: space-between;
 }
 .btn1 {
-  padding: 15px 50px;
+  padding: 15px 30px;
   background: linear-gradient(to right, #65ccee 30%, #95dcbd);
   color: #fff;
   font-size: 18px;
   font-weight: 600;
-  text-transform: capitalize;
+  text-transform: uppercase;
   box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
   transition: 0.5s;
@@ -143,6 +143,16 @@ body {
   background: linear-gradient(to right, #95dcbd, #65ccee);
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
   transition: 0.5s;
+  color: #151515;
+}
+.btn1 i {
+  margin: 0 15px 0 0;
+  color: #fff;
+}
+.btn1:hover i {
+  transform: rotate(360deg);
+  color: #151515;
+  transition: 0.5s ease;
 }
 .titles i {
   display: block;

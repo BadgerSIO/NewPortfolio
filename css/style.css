@@ -73,9 +73,11 @@ nav .container {
   z-index: 90;
 }
 .hc1 h1 {
-  font-size: 65px;
+  font-size: 75px;
   font-weight: 800;
   text-transform: uppercase;
+  line-height: 1em;
+  padding-bottom: 20px;
 }
 .hc1 {
   display: flex;
@@ -88,9 +90,29 @@ nav .container {
 .hc1 p {
   font-size: 22px;
   font-weight: 600;
-  margin-bottom: 30px;
+  padding-bottom: 20px;
 }
+.socialicons {
+  padding: 0 0 30px 0;
+}
+.socialicons i {
+  font-size: 25px;
+  background: #fff;
+  color: #151515;
+  padding: 15px;
+  margin-right: 15px;
+  border-radius: 30px;
+  transition: 0.5s ease;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+.socialicons i:hover {
+  transform: rotate(360deg);
+  background: #8be4ff;
+  transition: 0.5s ease;
+}
+
 .hc1 a {
+  display: inline-block;
   text-decoration: none;
 }
 .hc2 img {
@@ -143,8 +165,8 @@ nav .container {
   align-items: center;
 }
 .c2c h2,
-h1,
-p {
+.c2c h1,
+.c2c p {
   padding-bottom: 20px;
 }
 .aboutc2 h2 {
