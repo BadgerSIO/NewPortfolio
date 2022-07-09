@@ -288,5 +288,18 @@ nav .container {
 }
 /* contact part css  */
 #contacts {
-  background: #1addff;
+  background: #fff;
+}
+.contactme{
+  align-items: center;
+  padding-top: 30px;
+}
+.contactinfo h2{
+  font-size: 20px;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+}
+.contactinfo h4{ 
+  margin: auto 0;
+  padding-left: 10px;
 }
