@@ -346,3 +346,25 @@ nav .container {
   background: #fff;
   border-radius: 3px;
 }
+.contactform {
+  padding: 60px 20px;
+}
+.contactforms {
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.contactforms p {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.contactforms input {
+  background: #ffffff80;
+  border: 1px solid #ffffff80;
+  font-size: 18px;
+}
+
+.contactforms input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
