@@ -8,6 +8,7 @@ nav {
 }
 .logo h2 {
   font-family: "Lobster", cursive;
+  font-weight: 300;
 }
 nav .container {
   background: #ffffff81;
@@ -288,7 +289,10 @@ nav .container {
 }
 /* contact part css  */
 #contacts {
-  background: #fff;
+  background: linear-gradient(to right, #65ccee 30%, #95dcbd);
+}
+.plane {
+  color: #fff !important;
 }
 .contactme {
   margin-top: 60px;
