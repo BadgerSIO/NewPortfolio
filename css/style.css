@@ -288,12 +288,13 @@ nav .container {
 }
 /* contact part css  */
 #contacts {
-  background: #8be4ff;
+  background: #fff;
 }
 .contactme {
   margin-top: 60px;
-  background: #ffffff80;
+  background: #f9f9f9;
   border-radius: 15px;
+  box-shadow: 10px 15px 35px rgba(0, 0, 0, 0.1);
 }
 .contactinfo {
   flex: 1;
@@ -348,6 +349,7 @@ nav .container {
 }
 .contactform {
   padding: 60px 20px;
+  margin: auto;
 }
 .contactforms {
   flex-wrap: wrap;
@@ -358,13 +360,37 @@ nav .container {
   margin-bottom: 40px;
 }
 .contactforms input {
-  background: #ffffff80;
-  border: 1px solid #ffffff80;
+  background: #ffffff;
+  border: 2px solid #ffffff80;
   font-size: 18px;
+  border-radius: 5px;
 }
 
 .contactforms input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+.contactforms .phonenum {
+  background: #ffffff;
+}
+.contactforms .msg {
+  width: 95%;
+  background: #ffffff;
+  border: 2px solid #ffffff80;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  padding: 10px;
+  border-radius: 5px;
+}
+.contactforms input[type="submit"] {
+  padding: 15px 30px;
+  margin: 0 auto;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  background: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
 }
