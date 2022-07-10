@@ -288,18 +288,61 @@ nav .container {
 }
 /* contact part css  */
 #contacts {
-  background: #fff;
+  background: #8be4ff;
 }
-.contactme{
-  align-items: center;
-  padding-top: 30px;
+.contactme {
+  margin-top: 60px;
+  background: #ffffff80;
+  border-radius: 15px;
 }
-.contactinfo h2{
-  font-size: 20px;
+.contactinfo {
+  flex: 1;
+  background-image: url("../images/Frame\ 1.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px 25px;
+  border-radius: 15px;
+}
+.contactinfo h2 {
+  font-size: 35px;
   text-transform: capitalize;
   padding-bottom: 20px;
 }
-.contactinfo h4{ 
+.contactinfo p {
+  font-size: 18px;
+}
+.contactinfo .links {
   margin: auto 0;
   padding-left: 10px;
+  color: #151515;
+  font-weight: 800;
+}
+.contactsocial {
+  padding-top: 35px;
+}
+.contactsocial div {
+  padding: 30px 0;
+}
+.contactsocial div i {
+  font-size: 30px;
+  color: #151515;
+}
+.contactform {
+  flex: 2;
+  height: 100%;
+}
+.contactsocial2 {
+  padding-top: 40px;
+}
+.contactsocial2 a {
+  padding-right: 20px;
+}
+.contactsocial2 i {
+  font-size: 20px;
+  color: #151515;
+  padding: 10px;
+  border: 1px solid #151515;
+  background: #fff;
+  border-radius: 3px;
 }
