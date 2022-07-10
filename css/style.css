@@ -292,9 +292,10 @@ nav .container {
 }
 .contactme {
   margin-top: 60px;
-  background: #f9f9f9;
+  background: #fafafa;
+
   border-radius: 15px;
-  box-shadow: 10px 15px 35px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 15px 35px rgba(0, 0, 0, 0.05);
 }
 .contactinfo {
   flex: 1;
@@ -304,6 +305,7 @@ nav .container {
   background-repeat: no-repeat;
   padding: 60px 25px;
   border-radius: 15px;
+  box-shadow: 5px 0 15px rgba(0, 0, 0, 0.05);
 }
 .contactinfo h2 {
   font-size: 35px;
@@ -343,9 +345,15 @@ nav .container {
   font-size: 20px;
   color: #151515;
   padding: 10px;
-  border: 1px solid #151515;
-  background: #fff;
-  border-radius: 3px;
+  background: #fafafa;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  transition: 0.2s linear;
+}
+.contactsocial2 i:hover {
+  transform: translateY(5px);
+  transition: 0.2s linear;
+  background: #95dcbd;
 }
 .contactform {
   padding: 60px 20px;
