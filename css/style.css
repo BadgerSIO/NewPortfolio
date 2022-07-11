@@ -373,9 +373,10 @@ nav .container {
 }
 .contactforms input {
   background: #ffffff;
-  border: 2px solid #ffffff80;
+  border: 2px solid #ffffff;
   font-size: 18px;
   border-radius: 5px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.05);
 }
 
 .contactforms input[type="number"]::-webkit-inner-spin-button,
@@ -394,6 +395,8 @@ input[type="number"]::-webkit-outer-spin-button {
   font-family: "Nunito", sans-serif;
   padding: 10px;
   border-radius: 5px;
+  
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.05);
 }
 .contactforms input[type="submit"] {
   padding: 15px 30px;
