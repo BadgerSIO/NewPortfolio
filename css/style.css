@@ -148,9 +148,7 @@ nav .container {
   flex-direction: column;
   height: 100%;
 }
-.about_contents {
-  padding-top: 30px;
-}
+
 .aboutc1 {
   text-align: center;
 }
@@ -207,7 +205,7 @@ nav .container {
   background-position: top;
   transition: 2s ease-in-out;
   box-shadow: 10px 15px 35px rgba(0, 0, 0, 0.1);
-  margin: 30px 0;
+  
   position: relative;
   display: flex;
   flex-direction: column;
@@ -295,7 +293,6 @@ nav .container {
   color: #fff !important;
 }
 .contactme {
-  margin-top: 60px;
   background: #fafafa;
 
   border-radius: 15px;

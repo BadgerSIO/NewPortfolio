@@ -183,5 +183,6 @@ body {
   height: 5px;
   background: #333;
   margin: 0 auto;
+  margin-bottom: 50px;
   border-radius: 10px;
 }
